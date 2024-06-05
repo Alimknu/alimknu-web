@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #ccc;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #222;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+  color: #ccc;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #ccc;
+  margin: 0 auto;
+}
+
+input[type="number"] {
+  width: 25%;
+  padding: 10px;
+  font-size: 28px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #222;
+  color: #ccc;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+#convert-btn {
+  padding: 10px 50px;
+  font-size: 28px;
+  background-color: #4caf50;
+  color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#output {
+  display: none;
+  padding: 20px;
+  font-size: 28px;
+  color: #ccc;
+  background-color: #444;
+  border-radius: 5px;
+  margin: 50px auto;
+  text-align: center;
+  width: 90%;
+}
